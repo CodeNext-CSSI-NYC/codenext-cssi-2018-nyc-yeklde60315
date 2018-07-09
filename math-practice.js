@@ -19,8 +19,9 @@ console.log(Math.round(q/r));
 console.log((p*r)<(q**2));
 // 4. What is the remainder when the sum of q and r is divided by p?
 console.log(q*r%p);
-
+//0
 // 5. 27 squared is equal to what number raised to the third power?
+console.log(27**2=)
 
 // 6. What is the absolute value of p - q? (Find out how to do absolute value by searching online.)
 
