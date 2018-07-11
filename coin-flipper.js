@@ -1,18 +1,25 @@
-let result;
-var randomInt = require('random-int');
-var ourNum =randomInt(0,1);
-var heads=0;
-var tails=1;
-var readline = require("readline-sync");
-var user = readline.question( "chooses heads or tails")
 
-if (user == 0 && ourNum == 0) {
-  result= "heads";
- console.log("your right")
+var randomInt = require('random-int');
+var num =randomInt(0,1);
+var result;
+var readline = require("readline-sync");
+var user = readline.question( "chooses heads or tails");
+
+
+
+if(num==0) {
+result = "heads";
+
+} else{
+  result="tails";
+
 }
-else if(user == 1 && ourNum==1) {
-result="tails";
-console.log("your right ")
-}else{
- console.log("your wrong")
+
+
+if (user == result ) {
+
+ console.log(user, result,"your right");
+}
+else  {
+ console.log(user, result, "you're wrong");
 }
