@@ -37,3 +37,32 @@ if(compChoice==1 && user == 1){
 
   console.log( "you win");
 }
+
+
+
+// if(compChoice==1 && user == 1){
+//
+//   console.log("tie");
+//
+// }else if (compChoice==1 && user== 2){
+//   console.log( "you lose");
+//
+// }else {
+//
+//   console.log( "you win");
+// }
+//
+//
+//
+//
+// if(compChoice==1 && user == 1){
+//
+//   console.log("tie");
+//
+// }else if (compChoice==1 && user== 2){
+//   console.log( "you lose");
+//
+// }else {
+//
+//   console.log( "you win");
+// }
