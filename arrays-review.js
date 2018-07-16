@@ -177,8 +177,9 @@ let squares=[];
 
 for(i=0 ; i<array.length ; i++){
   let num=array[i];
-
-
+  squares= num**2;
+console.log(num);
+console.log(squares);
 
 }
 
