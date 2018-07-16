@@ -61,60 +61,93 @@
 //  odd();
 // // 4. Write a function that, given a string of any length,
 // // returns true if it contains at least one space.
-
-console.log(containsSpace("star wars") == true);
-console.log(containsSpace("     ") == true);
-console.log(containsSpace("apple") == false);
-console.log(containsSpace("") == false);
-
-
-
-function containsSpace(str){
-
-
-for(let i =0 ;i < str.length; i++){
-  if (str==" "){
-
-    return false
-
-  }
-}
-  return true
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
+// console.log(containsSpace("star wars") == true);
+// console.log(containsSpace("     ") == true);
+// console.log(containsSpace("apple") == false);
+// console.log(containsSpace("") == false);
 //
 //
 //
-// // 5. Given a string of any length, return the total number of times "a" or "A" appears.
-// function countAs(str) {
+// function containsSpace(str){
+//
+//
+// for(let i =0 ;i < str.length; i++){
+//   if (str==" "){
+//
+//     return false
+//
+//   }
+// }
+//   return true
 //
 // }
-// // Some tests
-// console.log(countAs("happy") == 1);
-// console.log(countAs("lady gaga") == 3);
-// console.log(countAs("") == 0);
-//
-//
-//
+
+
+
+// // 5. Given a string of any length, return the total number of times "a" or "A" appears.
+
+
+
+
+
+
+function countAs(str) {
+  for (let i= 0; str.length; i++){
+
+    if ( str="a"  str="A"){
+      return
+
+
+    }
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+}
+// Some tests
+console.log(countAs("happy") == 1);
+console.log(countAs("lady gaga") == 3);
+console.log(countAs("") == 0);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // // 6. Write a function arithmeticSequence that takes in a starting number (start),
 // // a difference (diff), and a number of terms (numTerms), and prints out the
 // // first numTerms of the sequence. For example, if the inputs are
