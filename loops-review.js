@@ -117,15 +117,15 @@
 //
 
 
-
-let array=["***************"]
-for(i=0 ; i<array.length  ; i++){
-  console.log(array[i]);
-  console.log(array[i]);
-  console.log(array[i]);
-  console.log(array[i]);
-  console.log(array[i]);
-}
+//
+// let array=["***************"]
+// for(i=0 ; i<array.length  ; i++){
+//   console.log(array[i]);
+//   console.log(array[i]);
+//   console.log(array[i]);
+//   console.log(array[i]);
+//   console.log(array[i]);
+// }
 
 
 // 6. Use this line:
@@ -135,6 +135,11 @@ for(i=0 ; i<array.length  ; i++){
 // Inside the for loop, store the corresponding letter for each index in a variable called letter.
 // Then, print out the toLowerCase() version of each letter.
 // You should see the alphabet, in lower case, with a new letter on each line.
+
+
+
+
+
 
 
 
