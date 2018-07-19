@@ -148,30 +148,30 @@
 
 // // 5. Use a for loop and multiplication to create a function that calculates
 // // exponents for you (and returns the answer).
-// // Do NOT use the exponent operation **, that defeats the whole point of the exercise.
-function powers(base, exponent) {
-  let result = 1;
-
-  for (let i = 1; i < base; i++) {
-
-    result = Math.pow(base, exponent);
-  }
-  return result;
-}
-
-
-
-
-
-
-//   // Hint: For loop goes here. Each time through the loop, you should do some
-//   // multiplication and store the answer back in result.
+// // // Do NOT use the exponent operation **, that defeats the whole point of the exercise.
+// function powers(base, exponent) {
+//   let result = 1;
+//
+//   for (let i = 1; i < base; i++) {
+//
+//     result = Math.pow(base, exponent);
+//   }
+//   return result;
 // }
-// If your function is correct, these should print true.
-console.log(powers(2, 5) == 32);
-console.log(powers(3, 4) == 81);
-console.log(powers(17, 1) == 17);
-
+//
+//
+//
+//
+//
+//
+// //   // Hint: For loop goes here. Each time through the loop, you should do some
+// //   // multiplication and store the answer back in result.
+// // }
+// // If your function is correct, these should print true.
+// console.log(powers(2, 5) == 32);
+// console.log(powers(3, 4) == 81);
+// console.log(powers(17, 1) == 17);
+//
 
 
 
@@ -182,9 +182,9 @@ console.log(powers(17, 1) == 17);
 
 // // 6. Write a function that takes in a string called word and returns true/false
 // // whether or not the word starts with L.
-// function startsWithL(word) {
-//
-// }
+function startsWithL(word) {
+
+}
 // // If your function is correct, these should print true.
 // // console.log(startsWithL("Liam") == true);
 // // console.log(startsWithL("orange") == false);
